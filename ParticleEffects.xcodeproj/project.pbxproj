@@ -15,6 +15,11 @@
 		0728084E2848312900B06726 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0728084C2848312900B06726 /* Main.storyboard */; };
 		072808502848312A00B06726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0728084F2848312A00B06726 /* Assets.xcassets */; };
 		072808532848312A00B06726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072808512848312A00B06726 /* LaunchScreen.storyboard */; };
+		0728085A2848315600B06726 /* Spark.sks in Resources */ = {isa = PBXBuildFile; fileRef = 072808592848315600B06726 /* Spark.sks */; };
+		0728085C284833E200B06726 /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0728085B284833E200B06726 /* Rain.sks */; };
+		072AEF242849629C0042F6FC /* snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 072AEF232849629C0042F6FC /* snow.sks */; };
+		072AEF26284963C10042F6FC /* magic.sks in Resources */ = {isa = PBXBuildFile; fileRef = 072AEF25284963C10042F6FC /* magic.sks */; };
+		072AEF282849658D0042F6FC /* bokeh.sks in Resources */ = {isa = PBXBuildFile; fileRef = 072AEF272849658D0042F6FC /* bokeh.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +32,11 @@
 		0728084D2848312900B06726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0728084F2848312A00B06726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		072808522848312A00B06726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		072808592848315600B06726 /* Spark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Spark.sks; sourceTree = "<group>"; };
+		0728085B284833E200B06726 /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain.sks; sourceTree = "<group>"; };
+		072AEF232849629C0042F6FC /* snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = snow.sks; sourceTree = "<group>"; };
+		072AEF25284963C10042F6FC /* magic.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = magic.sks; sourceTree = "<group>"; };
+		072AEF272849658D0042F6FC /* bokeh.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = bokeh.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +77,11 @@
 				0728084C2848312900B06726 /* Main.storyboard */,
 				0728084F2848312A00B06726 /* Assets.xcassets */,
 				072808512848312A00B06726 /* LaunchScreen.storyboard */,
+				072808592848315600B06726 /* Spark.sks */,
+				0728085B284833E200B06726 /* Rain.sks */,
+				072AEF232849629C0042F6FC /* snow.sks */,
+				072AEF25284963C10042F6FC /* magic.sks */,
+				072AEF272849658D0042F6FC /* bokeh.sks */,
 			);
 			path = ParticleEffects;
 			sourceTree = "<group>";
@@ -129,11 +144,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				072AEF26284963C10042F6FC /* magic.sks in Resources */,
 				0728084E2848312900B06726 /* Main.storyboard in Resources */,
 				072808452848312900B06726 /* GameScene.sks in Resources */,
+				0728085C284833E200B06726 /* Rain.sks in Resources */,
 				072808502848312A00B06726 /* Assets.xcassets in Resources */,
 				072808532848312A00B06726 /* LaunchScreen.storyboard in Resources */,
 				072808472848312900B06726 /* Actions.sks in Resources */,
+				072AEF242849629C0042F6FC /* snow.sks in Resources */,
+				0728085A2848315600B06726 /* Spark.sks in Resources */,
+				072AEF282849658D0042F6FC /* bokeh.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +326,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.humber.ParticleEffects;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ParticleEffects;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -333,7 +353,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.humber.ParticleEffects;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ParticleEffects;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
